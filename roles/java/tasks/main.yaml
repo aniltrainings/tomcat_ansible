@@ -1,0 +1,5 @@
+---
+- name: Install amazon linux extras
+  dnf:
+    name: "{{ java_ver }}"
+    state: present

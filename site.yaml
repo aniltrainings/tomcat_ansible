@@ -1,0 +1,7 @@
+- name: Install tomcat and Deploy petclinic
+  hosts: appservers
+  become: true
+  roles:
+    - java
+    - tomcat
+      #- deploy

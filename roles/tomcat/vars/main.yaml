@@ -1,0 +1,7 @@
+---
+tomcat_major_ver: 10
+tomcat_version: "{{tomcat_major_ver}}.1.7"
+tomcat_ver_dir: "apache-tomcat-{{tomcat_version}}"
+tomcat_dowloaded_file: "apache-tomcat-{{tomcat_version}}.tar.gz"
+tomcat_URL: "https://dlcdn.apache.org/tomcat/tomcat-{{tomcat_major_ver}}/v{{tomcat_version}}/bin/{{ tomcat_dowloaded_file }}"
+tomcat_home: /opt/tomcat
